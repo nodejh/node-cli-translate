@@ -29,6 +29,9 @@ function translateByYoudao(word) {
       if (data.errorCode !== 0) {
         return console.log(colors.Reset, colors.fg.Red, parsed, colors.Reset);
       }
+      if (!(data.basic && data.basic.explains)) {
+        return console.log(colors.Reset, colors.fg.Red, '......', colors.Reset);
+      }
       // 基础释译
       const basic = data.basic.explains.join('   ');
       const web = data.web;
