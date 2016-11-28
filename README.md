@@ -16,6 +16,25 @@ $ npm link
 # trans
 ```
 
+```
+$ trans
+  请输入需要翻译的文本
+  For example:
+      translate hello
+$ trans hello
+  需要翻译的文本是:  hello
+
+
+  [BASIC]
+  n. 表示问候， 惊奇或唤起注意时的用语   int. 喂；哈罗   n. (Hello)人名；(法)埃洛
+
+  [WEB]
+  你好   您好   Hello
+  凯蒂猫   昵称   匿称
+  哈乐哈乐   乐扣乐扣
+
+```
+
 ## API
 
 目前仅使用了有道词典的 API：
