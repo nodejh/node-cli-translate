@@ -12,7 +12,7 @@ if (process.argv[0] === 'trans') {
 
 if (word) {
   // console.log(colors.Reset, colors.fg.Yellow, '需要翻译的文本是: ', word, colors.Reset);
-  console.log('');
+  // console.log('');
   translate.translateByYoudao(word);
 } else {
   console.log(colors.Reset, colors.fg.Red, '请输入需要翻译的文本', colors.Reset);
