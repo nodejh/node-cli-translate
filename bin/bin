@@ -17,5 +17,5 @@ if (word) {
 } else {
   console.log(colors.Reset, colors.fg.Red, '请输入需要翻译的文本', colors.Reset);
   console.log(colors.Reset, colors.fg.Red, 'For example:', colors.Reset);
-  console.log(colors.Reset, colors.fg.Red, '    translate hello', colors.Reset);
+  console.log(colors.Reset, colors.fg.Red, '    trans hello', colors.Reset);
 }
