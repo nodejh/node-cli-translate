@@ -1,5 +1,5 @@
 {
-  "name": "node-dictionary",
+  "name": "node-cli-translate",
   "bin": {
     "trans": "bin/bin"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nodejh/node-dictionary.git"
+    "url": "git+ssh://git@github.com/nodejh/node-cli-translate.git"
   },
   "keywords": [
     "dictionary",
@@ -20,7 +20,7 @@
   "author": "nodejh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nodejh/node-dictionary/issues"
+    "url": "https://github.com/nodejh/node-cli-translate/issues"
   },
-  "homepage": "https://github.com/nodejh/node-dictionary#readme"
+  "homepage": "https://github.com/nodejh/node-cli-translate#readme"
 }
