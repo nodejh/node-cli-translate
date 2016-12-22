@@ -14,8 +14,8 @@
     "url": "git+ssh://git@github.com/nodejh/node-cli-translate.git"
   },
   "keywords": [
-    "dictionary",
-    "translate"
+    "translate",
+    "dictionary"
   ],
   "author": "nodejh",
   "license": "ISC",
