@@ -1,17 +1,18 @@
 const translate = require('./translate');
 const colors = require('./colors');
 
+// 如果使用的是 node index.js world 这样的命令
+// 则需要翻译的单词是 process.argv[2]
+let word = process.argv[2];
 
-const word = process.argv[2];
 if (process.argv[0] === 'trans') {
   // 如果使用的是 trans word 这样的命令
-  // 则需要翻译的单词是 process.argv[1]
+  // 则 process.argv[0] 是 trans
+  // 需要翻译的单词是 process.argv[1]
   word = process.argv[1];
 }
 
 if (word) {
-  // console.log(colors.Reset, colors.fg.Yellow, '需要翻译的文本是: ', word, colors.Reset);
-  // console.log('');
   translate.translateByYoudao(word);
 } else {
   console.log(colors.Reset, colors.fg.Red, '请输入需要翻译的文本', colors.Reset);

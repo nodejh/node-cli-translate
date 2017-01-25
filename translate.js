@@ -17,7 +17,7 @@ function translateByYoudao(word) {
     host: config.youdao.host,
     path,
   }, function(response) {
-    var body = '';
+    let body = '';
     response.setEncoding('utf8');
     response.on('data', function(d) {
       body += d;
@@ -25,7 +25,7 @@ function translateByYoudao(word) {
 
     response.on('end', function() {
       // console.log('body: ', body);
-      var data = JSON.parse(body);
+      const data = JSON.parse(body);
       if (data.errorCode !== 0) {
         return console.log(colors.Reset, colors.fg.Red, parsed, colors.Reset);
       }
