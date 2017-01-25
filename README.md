@@ -12,7 +12,7 @@ $ npm install node-cli-translate -g
 $ trans hello
 ```
 
-![trans hello](http://ww1.sinaimg.cn/large/c3492780gy1fc2y9shgdmj20wy08kk4g&690)
+![trans hello](![](http://p1.bqimg.com/567571/621e632027f6e297.png))
 
 ## Dev
 
