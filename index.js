@@ -19,3 +19,7 @@ if (word) {
   console.log(colors.Reset, colors.fg.Red, 'For example:', colors.Reset);
   console.log(colors.Reset, colors.fg.Red, '    trans hello', colors.Reset);
 }
+
+process.on('uncaughtException', function (err) {
+  return console.log(colors.Reset, colors.fg.Red, '网络异常', colors.Reset);
+});

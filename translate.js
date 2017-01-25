@@ -30,7 +30,7 @@ function translateByYoudao(word) {
         return console.log(colors.Reset, colors.fg.Red, parsed, colors.Reset);
       }
       if (!(data.basic && data.basic.explains)) {
-        return console.log(colors.Reset, colors.fg.Red, '......', colors.Reset);
+        return console.log(colors.Reset, colors.fg.Red, '没有获取到该单词的翻译结果', colors.Reset);
       }
       // 基础释译
       const basic = data.basic.explains.join('   ');

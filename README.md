@@ -12,11 +12,7 @@ $ npm install node-cli-translate -g
 $ trans hello
 ```
 
-## TODO
-
-+ 添加百度翻译
-+ 添加 Google 翻译
-+ 添加 Bing 翻译
+![trans hello](http://ww1.sinaimg.cn/large/c3492780gy1fc2y9shgdmj20wy08kk4g&690)
 
 ## Dev
 
@@ -57,4 +53,4 @@ $ trans hello
 
 ## License
 
-[MIT]()
+[MIT](https://github.com/nodejh/node-cli-translate/blob/master/LICENSE.md)
