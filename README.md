@@ -20,9 +20,10 @@ $ trans hello
 
 ```
 $ git clone https://github.com/nodejh/node-cli-translate.git
-$ cd node-dictionary
-$ cp config.example.js config.js
-# 修改 config.js 中的 keyfrom 和 apiKey
+$ cd node-cli-translate
+$ cp config/config.example.js config/config.js
+# 然后修改 config.js 中的 keyfrom 和 apiKey
+# 再然后 link 该项目到 node_modules
 $ npm link
 # trans
 ```
