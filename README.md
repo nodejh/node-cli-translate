@@ -1,6 +1,10 @@
 
 # Node.js 命令行翻译工具
 
+
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
 为了快速在终端实现翻译需求，所以开发了这个小程序。
 
 比如在写代码的时候，想翻译一个英文单词，但切换到翻译 APP 很麻烦，而一般编辑器或IED都有 Terminal，这个时候只需要在 Terminal 输入 `trans` 命令就可以翻译了。
@@ -55,3 +59,9 @@ $ trans hello
 ## License
 
 [MIT](https://github.com/nodejh/node-cli-translate/blob/master/LICENSE.md)
+
+
+[npm-image]: https://img.shields.io/npm/v/node-cli-translate.svg
+[npm-url]: https://npmjs.org/package/node-cli-translate
+[downloads-image]: https://img.shields.io/npm/dm/node-cli-translate.svg
+[downloads-url]: https://npmjs.org/package/node-cli-translate
