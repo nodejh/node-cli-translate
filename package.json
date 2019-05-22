@@ -1,7 +1,7 @@
 {
   "name": "node-cli-translate",
   "bin": {
-    "trans": "bin/bin"
+    "translate": "index.js"
   },
   "version": "1.1.1",
   "description": "A command line interface translating tool by node.js",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/nodejh/node-cli-translate/issues"
   },
-  "homepage": "https://github.com/nodejh/node-cli-translate#readme"
+  "homepage": "https://github.com/nodejh/node-cli-translate#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "ora": "^3.4.0"
+  }
 }

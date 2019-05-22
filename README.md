@@ -9,6 +9,11 @@
 
 比如在写代码的时候，想翻译一个英文单词，但切换到翻译 APP 很麻烦，而一般编辑器或IED都有 Terminal，这个时候只需要在 Terminal 输入 `trans` 命令就可以翻译了。
 
+
+## feature
+
+- translate list, Lists available translation languages.
+
 ## 使用方法
 
 ```
