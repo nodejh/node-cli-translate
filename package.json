@@ -8,7 +8,9 @@
   "description": "A command line interface translating tool by node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint . --ext .js",
+    "format": "prettier-eslint \"src/**/*.js\" --write",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,15 @@
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
-    "ora": "^3.4.0"
+    "ora": "^3.4.0",
+    "tablestore": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jest": "^22.6.4",
+    "jest": "^24.8.0",
+    "prettier-eslint-cli": "^4.7.1"
   }
 }
