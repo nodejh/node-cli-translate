@@ -83,9 +83,8 @@ program
       return command.help();
     }
     const timeStart = new Date();
-    const tableName = command.name;
     const spinner = ora({
-      text: `${chalk.grey('Translating...')} ${chalk.white(tableName)}`,
+      text: `${chalk.grey('Translating...')}`,
       spinner: 'hearts',
     }).start();
     log();

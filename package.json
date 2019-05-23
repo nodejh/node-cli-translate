@@ -3,7 +3,7 @@
   "bin": {
     "translate": "index.js"
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "preferGlobal": true,
   "description": "A command line interface translating tool by node.js",
   "main": "index.js",
